@@ -1,0 +1,87 @@
+@media (max-width: 990px) {
+    .head-section h2{
+        margin-right: 400px;
+    }
+}
+
+@media (max-width: 760px) {
+    .navbar-items{
+        display: none;
+    }
+    .profile-section{
+        display: flex;
+        gap: 20px;
+    }
+    .nav__menu{
+        display: block;
+        width: 23px;
+    }
+    .list-property{
+        display: none;
+    }
+    .head-section{
+        flex-direction: column;
+    }
+    .head__text h2{
+        margin-right: 10px;
+    }
+    .hero-content h2{
+        font-size: 58px;
+        font-weight: bold;
+    }
+    .hero-imgandtext{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .head__text h2{
+        font-size: 38px;
+        font-weight: bold;
+    }
+    .hero__content h3{
+        font-size: 38px;
+    }
+    .img__moskub{
+        margin-top: 50px;
+        display: none;
+    }
+    .img__phone{
+        display: block;
+        margin-top: 50px;
+    }
+    .wrapper{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+    .services{
+        flex-direction: column;
+    }
+    .partner-box{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .partners-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .faq-tabs{
+        flex-direction: column;
+    }
+    .taxe-headtext{
+        max-width: 500px;
+    }
+        .footer-content {
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: center;
+            overflow: hidden;
+        }
+        .footer-nav {
+            margin: 20px 0;
+            gap: 20px;
+            align-items: center ;
+        }
+        .footer-subscribe {
+            justify-content: center;
+        }
+    
+    
+}
